@@ -14,6 +14,7 @@
 		A06A408B1EF7AC61000C795F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A06A40891EF7AC61000C795F /* LaunchScreen.storyboard */; };
 		A06A40961EF7AC61000C795F /* MZCLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A40951EF7AC61000C795F /* MZCLabelTests.swift */; };
 		A06A40A11EF7AC61000C795F /* MZCLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A40A01EF7AC61000C795F /* MZCLabelUITests.swift */; };
+		A06A40AF1EF7ACC0000C795F /* MZCLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06A40AE1EF7ACC0000C795F /* MZCLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A06A409C1EF7AC61000C795F /* MZCLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZCLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06A40A01EF7AC61000C795F /* MZCLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZCLabelUITests.swift; sourceTree = "<group>"; };
 		A06A40A21EF7AC61000C795F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A06A40AE1EF7ACC0000C795F /* MZCLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZCLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A06A40801EF7AC61000C795F /* AppDelegate.swift */,
 				A06A40821EF7AC61000C795F /* ViewController.swift */,
+				A06A40AE1EF7ACC0000C795F /* MZCLabel.swift */,
 				A06A40841EF7AC61000C795F /* Main.storyboard */,
 				A06A40871EF7AC61000C795F /* Assets.xcassets */,
 				A06A40891EF7AC61000C795F /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A06A40AF1EF7ACC0000C795F /* MZCLabel.swift in Sources */,
 				A06A40831EF7AC61000C795F /* ViewController.swift in Sources */,
 				A06A40811EF7AC61000C795F /* AppDelegate.swift in Sources */,
 			);
